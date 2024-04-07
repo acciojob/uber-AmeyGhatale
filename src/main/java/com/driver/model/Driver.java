@@ -14,7 +14,7 @@ public class Driver {
 
     private String driverName;
 
-    private String mobileNo;
+    private String mobile;
 
     private String password;
 
@@ -33,7 +33,7 @@ public class Driver {
     }
 
     public Driver(String mobileNo, String password) {
-        this.mobileNo = mobileNo;
+        this.mobile = mobileNo;
         this.password = password;
     }
 
@@ -56,12 +56,12 @@ public class Driver {
         this.driverName = driverName;
     }
 
-    public String getMobileNo() {
-        return mobileNo;
+    public String getMobile() {
+        return mobile;
     }
 
-    public void setMobileNo(String mobileNo) {
-        this.mobileNo = mobileNo;
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
     }
 
     public String getPassword() {
